@@ -20,14 +20,15 @@ export default function Home() {
 
         <p className="description">
         The fort was built in 1501 and the lighthouse in 1702, to guard the entrance to the Bay of all Saints during the period of the Portuguese Empire.
-The black and white striped lighthouse is one of the oldest military structures in Brazil and an iconic Salvador's landmarks. The interior of the fort has been transformed into a maritime mueseum and there is also an exhibit about
-the Portuguese colony's brutal slave trade, which brought millions across the Atlantic from Africa.
+        The black and white striped lighthouse is one of the oldest military structures in Brazil and an iconic Salvador's landmarks. 
+        The interior of the fort has been transformed into a maritime museum and there is also an exhibit about
+        the Portuguese colony's brutal slave trade, which brought millions across the Atlantic from Africa.
         </p>
 
         <div className="grid">
           <a className="card">
+          <p>Click on the Lighthouse to switch between Day / Night</p>
           <Lighthouse />  
-          <p>Click on the Lighthouse to turn it On / Off</p>
           </a>
         </div>
       </main>
