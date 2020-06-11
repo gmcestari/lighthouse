@@ -1,3 +1,11 @@
+import styled from 'styled-components'
+
+const Img = styled.img`
+max-width: 100%;
+max-height: 100vh;
+height: auto;
+`
+
 const changeImage = () => {
   var image = document.getElementById('myImage');
   if (image.src.match("on")) {
@@ -10,7 +18,7 @@ const changeImage = () => {
 const Lighthouse = () => {
 
   return (
-    <img src="lighthouseon.png" width="601" height="464" onClick={changeImage} id="myImage" />
+    <Img src="lighthouseon.png" onClick={changeImage} id="myImage" />
   )
 }
 
