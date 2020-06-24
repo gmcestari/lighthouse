@@ -64,7 +64,7 @@ export default function Index() {
       
       <Box my={4}>
         <Typography variant="h4" paragraph align="center">
-        The Barra lighthouse is located at Forte de Santo Antônio da Barra in Salvador, Bahia, Brazil...
+        The Barra lighthouse is located at Forte de Santo Antônio da Barra in Salvador, Bahia, Brazil.
         </Typography>
         <Typography variant="h6" component="h4" gutterBottom>
         The fort was built in 1501 and the lighthouse in 1702, to guard the entrance to the Bay of all Saints during the period of the Portuguese Empire.
